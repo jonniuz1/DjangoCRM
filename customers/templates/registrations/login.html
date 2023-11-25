@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div style="align-content: center;">
+ 		<div class="card text-center">
+		  <div class="card-header"></div>
+		  <div class="card-body">
+		  	<form method="post">
+				{% csrf_token %}
+				<h2>Login</h2><br>
+			  	<div class="mb-3 col-auto text-center">
+			    	<input type="text" class="form-control" name="username" placeholder="Username...">
+			  	</div>
+			  	<div class="mb-3">
+			    	<input type="password" class="form-control" name="password" placeholder="Password...">
+			  	</div>
+			  	<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		  </div>
+		  <div class="card-footer text-body-secondary"></div>
+		</div>
+  </div>
+</div>
+
+
+{% endblock %}
