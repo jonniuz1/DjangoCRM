@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
+from django.views import View
+
 from .models import Customer
 from .forms import SignUpForm, CustomerForm
 
@@ -44,11 +46,20 @@ def update_customer(request, pk):
     return render(request, 'customers/add-customer.html', {'form': form, 'customer': current_customer})
 
 
-@login_required
-def delete_it(request, pk):
-    customer = Customer.active.get(pk=pk)
-    customer.delete()
-    return redirect('home')
+class DeleteView(View):
+    template_name = 'customers/delete-customer.html'
+
+    def post(self, request, pk):
+        current_customer = Customer.objects.get(pk=pk)
+        current_customer.delete()
+        print(f"Delete Post: {request.method}")
+        messages.info(request, "You have successfully deleted the '{}'".format(current_customer))
+        return redirect("home")
+
+    def get(self, request, pk):
+        current_customer = Customer.objects.get(pk=pk)
+        print(f"Delete Get: {request.method}")
+        return render(request, self.template_name, {'customer': current_customer})
 
 
 def signup(request):

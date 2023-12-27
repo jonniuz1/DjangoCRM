@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<br>
+<h1>Are you really sure you want to delete "{{  customer }}"?</h1>
+<div class="container text-center">
+	<div class="row position-absolute top-50 start-50 translate-middle">
+
+				<form method="POST">
+					{% csrf_token %}
+					<a href="{% url 'home' %}" class="btn btn-secondary btn-sm">Back</a>
+					<button type="submit" class="btn btn-danger btn-sm">Delete</button>
+				</form>
+
+	</div>
+</div>
+
+
+{% endblock %}
