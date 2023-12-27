@@ -1,0 +1,11 @@
+web:
+  - buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn core.wsgi:application
+    env:
+      DJANGO_SETTINGS_MODULE: core.settings
+
+build:
+  - preBuildCommand: python manage.py collectstatic --noinput
+
+static:
+  - path: /static
