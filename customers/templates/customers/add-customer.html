@@ -20,8 +20,10 @@
 
 	{{ form.as_p }}
 
-	<br/>
-	  <button type="submit" class="btn btn-secondary">Submit</button>
+	{% if customer %}
+		<a href="{% url 'customer' customer.id %}" class="btn btn-secondary">Back</a>
+	{% endif %}
+	<button type="submit" class="btn btn-primary">Submit</button>
 	</form>
 
 

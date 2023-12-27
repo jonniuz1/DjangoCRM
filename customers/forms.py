@@ -42,9 +42,9 @@ class CustomerForm(forms.ModelForm):
 	city = forms.CharField(required=True, max_length=50, label='', widget=forms.TextInput(attrs={'class':' form-control', 'placeholder':'City...'}))
 	state = forms.CharField(required=True, max_length=50, label='', widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'State...'}))
 	zipcode = forms.CharField(required=True, max_length=15, label='', widget=forms.TextInput(attrs={'class':'form-control', 'placeholder': 'Zipcode...'}))
-	is_active = forms.BooleanField(initial=True)
+	is_active = forms.BooleanField(initial=True, required=False)
 
 
 	class Meta:
 		model = Customer
-		exclude = ('is_active', )
+		fields = '__all__'

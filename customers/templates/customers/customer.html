@@ -1,20 +1,18 @@
 {% extends 'base.html' %}
 {% block title %}Detail - {{ customer.first_name }} {{ customer.last_name }}{% endblock %}
 {% block content %}
-  <div class="card">
-    <h5 class="card-header">{{ customer.first_name }} {{ customer.last_name }}</h5>
-    <div class="card-body">
-      <p class="card-text"><strong style="font-size: 115%;">Email: </strong>{{ customer.email }}</p>
-      <p class="card-text"><strong style="font-size: 115%;">Phone: </strong>{{ customer.phone }}</p>
-      <p class="card-text"><strong style="font-size: 115%;">Address: </strong>{{ customer.address }}</p>
-      <p class="card-text"><strong style="font-size: 115%;">City: </strong>{{ customer.city }}</p>
-      <p class="card-text"><strong style="font-size: 115%;">State: </strong>{{ customer.state }}</p>
-      <p class="card-text"><strong style="font-size: 115%;">Zipcode: </strong>{{ customer.zipcode }}</p>
-      <a href="{% url 'home' %}" class="btn btn-secondary">Back</a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="{% url 'delete_customer' customer.id %}" class="btn btn-danger">Delete</a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="{% url 'update_customer' customer.id %}" class="btn btn-primary">Update</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  </div>
-</div>
-    </div>
-  </div>
+	<div class="card">
+		<h5 class="card-header">{{ customer.first_name }} {{ customer.last_name }}</h5>
+		<div class="card-body">
+			<p class="card-text"><strong style="font-size: 115%;">Email: </strong>{{ customer.email }}</p>
+			<p class="card-text"><strong style="font-size: 115%;">Phone: </strong>{{ customer.phone }}</p>
+			<p class="card-text"><strong style="font-size: 115%;">Address: </strong>{{ customer.address }}</p>
+			<p class="card-text"><strong style="font-size: 115%;">City: </strong>{{ customer.city }}</p>
+			<p class="card-text"><strong style="font-size: 115%;">State: </strong>{{ customer.state }}</p>
+			<p class="card-text"><strong style="font-size: 115%;">Zipcode: </strong>{{ customer.zipcode }}</p>
+			<a href="{% url 'home' %}" class="btn btn-secondary">Back</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="{% url 'delete_customer' customer.id %}" class="btn btn-danger">Delete</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="{% url 'update_customer' customer.id %}" class="btn btn-primary">Update</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		</div>
+	</div>
 {% endblock %}
