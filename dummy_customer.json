@@ -1,0 +1,167 @@
+[
+    {
+        "first_name": "Patrick",
+        "last_name": "Hawkins",
+        "email": "margaret21@example.net",
+        "phone": "781.926.9911x54025",
+        "address": "7828 Harrison Brooks\nJamesfort, ME 55957",
+        "city": "Craighaven",
+        "state": "El Salvador",
+        "zipcode": "97228",
+        "is_active": false
+    },
+    {
+        "first_name": "Jacqueline",
+        "last_name": "Powers",
+        "email": "xalexander@example.org",
+        "phone": "+1-542-704-3597x908",
+        "address": "8100 Stevens Plains\nCynthiamouth, AS 11535",
+        "city": "Khanberg",
+        "state": "Eritrea",
+        "zipcode": "35601",
+        "is_active": false
+    },
+    {
+        "first_name": "Ryan",
+        "last_name": "Harris",
+        "email": "devonlucas@example.com",
+        "phone": "001-572-563-5424x05401",
+        "address": "595 Carol Extensions\nLake Margarethaven, AZ 47945",
+        "city": "Molinastad",
+        "state": "Malta",
+        "zipcode": "42806",
+        "is_active": true
+    },
+    {
+        "first_name": "Brett",
+        "last_name": "Mcintosh",
+        "email": "xgates@example.com",
+        "phone": "449.201.7486",
+        "address": "0731 Steven Vista\nPort Shawntown, VA 51835",
+        "city": "New Stevenport",
+        "state": "Netherlands Antilles",
+        "zipcode": "51905",
+        "is_active": false
+    },
+    {
+        "first_name": "Todd",
+        "last_name": "Mcguire",
+        "email": "johnsonmatthew@example.org",
+        "phone": "5675597233",
+        "address": "2044 Perry Forge Apt. 178\nSchaeferton, NC 74490",
+        "city": "Johnsonfurt",
+        "state": "South Africa",
+        "zipcode": "57578",
+        "is_active": false
+    },
+    {
+        "first_name": "Amy",
+        "last_name": "Thompson",
+        "email": "jacksonkatelyn@example.org",
+        "phone": "(623)287-7237x96863",
+        "address": "729 Kyle Rapid Suite 165\nCollinsstad, MI 86347",
+        "city": "East Michelleland",
+        "state": "French Southern Territories",
+        "zipcode": "80452",
+        "is_active": false
+    },
+    {
+        "first_name": "Lisa",
+        "last_name": "Brandt",
+        "email": "kmann@example.org",
+        "phone": "923.220.0587",
+        "address": "59418 Darlene Viaduct Suite 393\nRobinsonchester, FM 20617",
+        "city": "Christopherbury",
+        "state": "Bahrain",
+        "zipcode": "20372",
+        "is_active": false
+    },
+    {
+        "first_name": "Jacqueline",
+        "last_name": "Hart",
+        "email": "claire69@example.net",
+        "phone": "259-311-2534x0984",
+        "address": "268 Amy Pines Apt. 593\nHowardchester, NV 65514",
+        "city": "East Thomas",
+        "state": "Hungary",
+        "zipcode": "05335",
+        "is_active": true
+    },
+    {
+        "first_name": "Leslie",
+        "last_name": "Willis",
+        "email": "allisonsmith@example.org",
+        "phone": "(899)910-8662",
+        "address": "PSC 9757, Box 8565\nAPO AP 27111",
+        "city": "New Lisaland",
+        "state": "Belgium",
+        "zipcode": "20795",
+        "is_active": false
+    },
+    {
+        "first_name": "Rodney",
+        "last_name": "Melton",
+        "email": "julieaguilar@example.net",
+        "phone": "7717220724",
+        "address": "73041 Bailey Vista Suite 706\nJenniferfort, NH 89865",
+        "city": "North Troyshire",
+        "state": "French Guiana",
+        "zipcode": "24714",
+        "is_active": true
+    },
+    {
+        "first_name": "Dustin",
+        "last_name": "Shaw",
+        "email": "allisonrobyn@example.org",
+        "phone": "+1-468-566-2343x496",
+        "address": "12234 Nicholas Flats\nNew Bernard, RI 94254",
+        "city": "Rachelshire",
+        "state": "American Samoa",
+        "zipcode": "82845",
+        "is_active": false
+    },
+    {
+        "first_name": "Stephanie",
+        "last_name": "Avila",
+        "email": "jwhitney@example.net",
+        "phone": "794.508.3887x831",
+        "address": "USNV Hobbs\nFPO AE 98194",
+        "city": "Lake Annafurt",
+        "state": "Malawi",
+        "zipcode": "46200",
+        "is_active": true
+    },
+    {
+        "first_name": "Debra",
+        "last_name": "Peterson",
+        "email": "jacksonlisa@example.com",
+        "phone": "+1-732-587-3939x23338",
+        "address": "783 Jesse Burgs Apt. 426\nEast Richardview, SD 64535",
+        "city": "Brandtmouth",
+        "state": "Slovakia (Slovak Republic)",
+        "zipcode": "80209",
+        "is_active": false
+    },
+    {
+        "first_name": "Maurice",
+        "last_name": "Garrett",
+        "email": "david48@example.net",
+        "phone": "001-811-392-4207x01052",
+        "address": "Unit 8543 Box 2053\nDPO AE 23349",
+        "city": "Andrewchester",
+        "state": "Japan",
+        "zipcode": "67035",
+        "is_active": false
+    },
+    {
+        "first_name": "Michele",
+        "last_name": "Smith",
+        "email": "urich@example.org",
+        "phone": "422-565-3649x9075",
+        "address": "216 Marshall Mountains\nSouth Oliviaside, SC 83106",
+        "city": "Martinezmouth",
+        "state": "Burundi",
+        "zipcode": "60120",
+        "is_active": false
+    }
+]
