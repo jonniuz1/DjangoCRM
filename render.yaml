@@ -3,7 +3,7 @@ services:
   name: core
   env: python
   buildCommand: "./build.sh"        # ensure it's a string
-  startCommand: cd DjangoCRM && gunicorn core.wsgi:application
+  startCommand: cd DjangoCRM && python manage.py collectstatic --noinput && gunicorn core.wsgi:application
   repo: https://github.com/jonniuz1/DjangoCRM.git # optional
   # plan: standard # optional
   healthCheckPath: /
